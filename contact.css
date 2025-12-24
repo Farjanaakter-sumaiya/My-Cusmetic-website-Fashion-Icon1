@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff5f8;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+}
+body{
+    width: 100%;
+     background-color:rgb(255, 194, 243);
+}
+.logo{
+     position: absolute;
+}
+.logo p{
+display: flex;
+float: right;
+margin-top: 30px ;
+margin-left: 20px;
+font-size: 30px;
+font-weight:bold;
+ font-family: 'Stupids', sans-serif;
+                                                
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+      border-radius: 50%;}
+      .topnav {
+         list-style: none;
+ box-shadow: #e3009f;
+  display: flex;
+  justify-content: end;
+ z-index: 999;
+  padding: 50px 100px ;
+ top: 0;
+ left: 0;
+ position: sticky;
+}
+
+/* Style the links inside the navigation bar */
+.topnav li a{
+   
+    padding: 0px 20px;
+    color: #070707;
+    text-decoration: none;
+  font-size: 17px;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #b340a0;
+  color: rgb(245, 241, 244);
+  transition:0.3s ease ;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #e483c7;
+  color: white;
+}
+.topnav li a.cart-icon{
+  position: relative;
+}
+.cart-value{
+  position: absolute;
+  font-size: .85rem;
+  top: 3px;
+  right: 8px;
+  width: 20px;
+  aspect-ratio: 1;
+  background: #b340a0;
+  border-radius: 100vw;
+  color: #050404;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+
+}
+
+.contact {
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #d63384;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.contact-box {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contact-info h2 {
+    color: #c2185b;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    color: #444;
+    line-height: 1.7;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #d63384;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #c2185b;
+}
